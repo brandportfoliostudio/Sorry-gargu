@@ -64,3 +64,9 @@ audio {
   from { transform: scale(0); }
   to { transform: scale(1); }
 }
+@keyframes fade {
+  to {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+}
